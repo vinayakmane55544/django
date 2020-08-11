@@ -1,0 +1,32 @@
+
+h4{
+    color: blue!important;
+}
+body{
+    background-color: darkslategrey!important;
+}
+
+#profile-wraper{
+    text-align: center;
+}
+#profile-pic{
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+.social-links ul,li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.social{
+    width: 20px;
+    height: 20px;
+}
