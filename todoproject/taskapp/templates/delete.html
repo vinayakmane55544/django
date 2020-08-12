@@ -1,0 +1,18 @@
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+    body{
+		background-color: #001e3e;
+        text-align:center;
+	}
+    h1{
+        color:white;
+    }
+</style>
+<h1> ARE YOU SURE YOU WANT TO DELETE:-  "{{item}}"</h1>
+<a href="{% url 'list'%}">cancle</a>
+
+<form method="POST" action="">
+{% csrf_token %}
+<input type="submit" value="confirm">
+</form>
